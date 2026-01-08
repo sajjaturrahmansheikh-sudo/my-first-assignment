@@ -69,7 +69,7 @@ body{
 
 
 .top-navbar{
-    padding-top: 16px;
+    padding: 16px 0;
 }
 
 .top-navbar .logo img{
@@ -89,4 +89,90 @@ body{
     color: #000;
     text-transform: capitalize;
     font-weight: 500;
+}
+
+
+
+
+
+/* hero section  */
+
+.banner-area{
+    background: url("./assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+
+
+.banner-content{
+    padding: 150px 0;
+}
+
+.banner-content button{
+    padding: 8px 12px;
+    border-radius: 1000px;   
+    border: 1px solid #EFEFEF;
+    color: #469165;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.banner-content button:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+
+
+.banner-content h1{
+    width: 770px;
+    margin: auto;
+    font-size: 72px;
+    line-height: 84px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 span{
+    color: #469165;
+}
+
+.banner-content p{
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+
+.banner-button a{
+    margin-right: 16px;
+}
+
+.banner-btn:hover{
+    color: #fff;
+}
+
+.btn-transparent{
+    padding: 13px 16px;
+    text-transform: capitalize;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.btn-transparent:hover{
+    background: #469165;
+    border: 1px solid #469165;
 }
