@@ -296,3 +296,47 @@ body{
     color: #469165;
     font-size: 14px;
 }
+
+
+
+/* ready to think  */
+
+.ready-to-think{
+    margin-bottom: 120px;
+}
+
+.ready{
+    background: #F7F6F2;
+}
+
+
+.think-t-des{
+    padding-top: 80px;
+}
+
+.think-more{
+    padding-bottom: 80px;
+}
+
+.think-t-des h3{
+    font-size: 40px;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.think-t-des p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+
+.think-btn{
+    margin-bottom: 20px;
+}
+
+.more-des p{
+    color: #627382;
+    line-height: 20px;
+}
