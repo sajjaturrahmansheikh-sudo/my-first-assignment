@@ -239,3 +239,60 @@ body{
     color: #627382;
     line-height: 20px;
 }
+
+
+
+
+/* app section  */
+
+
+.apps{
+    padding: 130px 0;
+}
+
+.app-section{
+    gap: 60px;
+}
+
+.brain-image img{
+    width: 600px;
+}
+
+.app-t-des{
+    margin-bottom: 60px;
+}
+
+.app-t-des h5{
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.app-t-des h2{
+    font-size: 48px;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.app-t-des p{
+    color: #627382;
+    line-height: 20px;
+    width: 460px;
+}
+
+
+.app-list p{
+    color:#001931;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.app-list p i{
+    color: #469165;
+    font-size: 14px;
+}
